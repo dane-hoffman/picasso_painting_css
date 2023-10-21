@@ -1,0 +1,9 @@
+.flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.flex-container * {
+    width:fit-content;
+}
