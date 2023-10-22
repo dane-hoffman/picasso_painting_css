@@ -1,24 +1,30 @@
+header {
+    align-content: center;
+}
 .flex-container {
     display: flex;
     flex-direction: row;
-    align-content: space-around;
-    flex-wrap: wrap-reverse;
     width:fit-content;
-    background-color: blue;
 }
 
 .flex-box {
     display: flex;
 }
 
+.item:hover{
+    background-color: black;
+    color: white;
+}
 
-/*.item:nth-child(odd){
-    margin: 10px 10px 20px;
+/*.flex-box:nth-child(even) {
+    background-color: brown;
 }*/
 
-.flex-box:nth-child(even) {
+.item:nth-child(even) {
     background-color: brown;
-   /* flex-wrap:wrap;*/
+}
+.item:nth-child(odd) {
+    background-color: blue;
 }
 
 
