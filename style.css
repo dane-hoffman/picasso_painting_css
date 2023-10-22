@@ -3,14 +3,22 @@
     flex-direction: row;
     align-content: space-around;
     flex-wrap: wrap-reverse;
-}
-
-.flex-container * {
     width:fit-content;
     background-color: blue;
 }
 
-.item:nth-child(6){
-    background-color: black;
+.flex-box {
+    display: flex;
 }
+
+
+/*.item:nth-child(odd){
+    margin: 10px 10px 20px;
+}*/
+
+.flex-box:nth-child(even) {
+    background-color: brown;
+   /* flex-wrap:wrap;*/
+}
+
 
